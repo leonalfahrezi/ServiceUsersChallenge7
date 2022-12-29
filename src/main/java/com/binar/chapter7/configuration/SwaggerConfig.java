@@ -31,7 +31,7 @@ public class SwaggerConfig {
     public OpenAPI demoApi(@Value("Users Rest API for Challenge") String appDescription,
                            @Value("v1.0.0") String appVersion) {
         Server server1 = new Server();
-        server1.setUrl("https://serviceuserschallenge7-production-f5f1.up.railway.app/");
+        server1.setUrl("https://serviceuserschallenge7-production.up.railway.app/");
         Server server2 = new Server();
         server2.setUrl("http://localhost:8080/");
         List<Server> listOfServer = new ArrayList<>();
